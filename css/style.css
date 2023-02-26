@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: rgb(255, 149, 232);
+    text-align: center;
+    font-size: 50px;
+    margin: 1%;
+    padding: 2%;
+}
+h2{
+    color: rgb(160, 16, 129);
+    font-size: 50px;
+    margin: 1%;
+    padding: 2%;
+}
+img{
+    width: 300px;
+    border: none;
+    margin: 2%;
+}
+.border{
+    border: solid 2px  gold; 
+}
+
+/*Parte 2*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+img{
+    width: 500px;
+}
+.sticker-1{
+    width: 380px;
+}
+.sticker-3{
+    width: 320px;
+}
+input{
+    margin: 1% 8%;
+    width: 210px;
+    padding: 0.5%;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+}
+
+button{
+
+    margin: 1% 0 1% 50%;
+}
+.mensajes{
+    width: 100%;
+    margin: 2%;
+}
+.mensaje-correct{
+    color: rgb(0, 136, 0);
+    text-align: center;
+}
+.mensaje-error{
+    color: red;
+    text-align: center;
+}
+.oculto{
+    display: none;
+}
+.visible{
+    display: inline;
+}
